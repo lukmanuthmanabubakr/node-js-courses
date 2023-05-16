@@ -25,7 +25,6 @@
 
 const math = require('./math')
 const uber = require('./uber')
-const customer = require('./customer')
 const add = math.add(50, 30)
 console.log(add)
 
@@ -44,5 +43,5 @@ const fuelStatus = uber.fuelLimit("Hey, stop there",  'oga fuel don finish')
 
 console.log(fuelStatus); 
 
-customer.sales();
+
 
