@@ -28,7 +28,15 @@ app.use(express.json());
 
 //server static files
 
-app.use(express.static('./Public'))
+app.use(express.static(path.join(__dirname,'./Public')));
+app.use('/subdir', express.static(path.join(__dirname,'./Public')));
+
+app.use('/subdir', require('./route/subdir'))
+app.use('/subdir', require('./route/root'))
+app.use('/students', require('./route/api/students'))
+
+
+
 const whitelist = ['https://www.abudollarsite.com', 'http://127.0.0.1:3000', 'http://localhost:3500']
 corsOptions = {
       origin: (origin, callback) => {
@@ -43,22 +51,7 @@ corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.get('^/$|index(.html)?', (req, res) => {
-      // res.sendFile('./views/index.html', {root: __dirname});
-      res.sendFile(path.join(__dirname, 'views', 'index.html'));
-    
-})
 
-app.get('/new-page(.html)?', (req, res) => {
-    
-      res.sendFile(path.join(__dirname, 'views', 'new-page.html'));
-})
-
-
-app.get('/old-page(.html)?', (req, res) => {
-      // res.redirect(path.join(__dirname, 'views', 'new-page.html'))// 302 code
-      res.redirect(301, path.join(__dirname, 'views', 'new-page.html'))
-})
 
 // catch all routes to get error 404 page
 
