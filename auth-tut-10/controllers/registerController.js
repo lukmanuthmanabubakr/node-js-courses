@@ -14,12 +14,13 @@ const handleNewUser = async (req, res) => {
   if (!user || !pwd)
     return res.status(400).json({ message: "Username and password required" });
   const duplicate = userDB.users.find((person) => person.username === user);
-  if (duplicate) return res.sendStatus(409); // conflict
+  if (duplicate) return res.sendStatus(409).json({message: "Username already exist"}); // conflict
 
   try {
     const hastpwd = await bcrypt.hash(pwd, 10);
     const newUser = { username: user, password: hastpwd };
-    const users = [userDB.users.newUser];
+    userDB.setUser([...userDB.users, newUser]);
+    // const users = [userDB.users.newUser];
 
     // const user = fsPromise.writeFile(
     //   path.join(__dirname, "models", "users.json"),
@@ -27,11 +28,11 @@ const handleNewUser = async (req, res) => {
     // );
 
     fsPromise.writeFile(
-      path.join(__dirname, "models", "users.json"),
+      path.join(__dirname, "..", "models", "users.json"),
       JSON.stringify(userDB.users)
     );
 
-    console.log(users);
+    console.log(newUser);
     res.status(201).json({message: `User ${newUser.username} has registered successfully`});
   } catch (err) {
     res.status(500).json({ message: err.message });

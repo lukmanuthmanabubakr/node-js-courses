@@ -39,6 +39,10 @@ app.use('/students', require('./route/api/students'));
 
 app.use('/register', require('./route/register'));
 
+//Authcontroller routes
+
+app.use('/auth', require('./route/auth'))
+
 
 
 
