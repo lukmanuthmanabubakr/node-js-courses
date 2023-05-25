@@ -1,30 +1,35 @@
-const { v4: uuid } = require("uuid");
-const { format } = require("date-fns");
+// Third party module
+const {format} = require('date-fns')
+const {v4: uuid} = require('uuid')
 
-const fs = require("fs");
-const fsPromises = require("fs/promises");
-const path = require("path");
+// core module
+const fsPromises = require('fs/promises')
+const fs = require('fs')
+const path = require('path')
 
-const logEvents = async (message, logName) => {
-    const dateTime = format(new Date(), 'yyyy-MM-dd\t\tHH:mm:ss');
-    console.log(dateTime);
-    const logItems = `${dateTime}\t${uuid()}\t ${message}\n`;
-    console.log(logItems);
+const logEvent = async (message, logFileName) => {
+    const dateTime = format(new Date(), 'yyyy-mm-dd\t\tHH:mm:ss');
+    const logItems = `${dateTime}\t ${uuid()}\t${message}\n`
+    
+
     try {
-        if(!fs.existsSync(path.join(__dirname, "..", "logs"))){
-            await fsPromises.mkdir(path.join(__dirname, "..", 'logs'))
+        if(!fs.existsSync(path.join(__dirname, '..', 'directory'))) {
+            fs.mkdir(path.join(__dirname, '..', 'directory'), (err) => {
+                if (err) throw err;
+                // console.log("directory created successfully")
+            })
         }
-        await fsPromises.appendFile(path.join(__dirname, "..", "logs", logName), logItems);
+        await fsPromises.appendFile(path.join(__dirname, '..', 'directory', logFileName ), logItems)
+
     } catch (error) {
-        console.error(error);
+        console.log(error)
     }
-   
-}
+}   
+
 
 const logger = (req, res, next) => {
     console.log(`${req.method}\n${req.path}`)
-      logEvents(`${req.method}\t${req.path}\t${req.headers.origin}`, 'reqLog.txt')
-      next()
+    logEvent(`${req.method}\t${req.path}\t${req.headers.origin}`, 'reqLog.txt')
+    next()
 }
-
-module.exports = {logEvents, logger}
+module.exports = {logEvent, logger}

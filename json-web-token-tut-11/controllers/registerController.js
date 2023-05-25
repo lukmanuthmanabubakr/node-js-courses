@@ -1,42 +1,32 @@
-const userDB = {
-  users: require("../models/users.json"),
-  setUser: function (data) {
-    this.users = data;
-  },
+const userDb = {
+    users: require('../models/users.json'),
+    setUser: function(data) {
+        this.users = data
+    }
 };
 
-const fsPromise = require("fs/promises");
-const path = require("path");
-const bcrypt = require("bcrypt");
+const fsPromises = require('fs/promises')
+const path = require('path')
+const bcrypt = require('bcrypt')
 
 const handleNewUser = async (req, res) => {
-  const { user, pwd } = req.body;
-  if (!user || !pwd)
-    return res.status(400).json({ message: "Username and password required" });
-  const duplicate = userDB.users.find((person) => person.username === user);
-  if (duplicate) return res.sendStatus(409).json({message: "Username already exist"}); // conflict
+    const {user, pwd} = req.body;
 
-  try {
-    const hastpwd = await bcrypt.hash(pwd, 10);
-    const newUser = { username: user, password: hastpwd };
-    userDB.setUser([...userDB.users, newUser]);
-    // const users = [userDB.users.newUser];
+   if (!user || !pwd) return res.status(400).json({message: "username and password required"});
+   const duplicate = userDb.users.find(person => person.username === user)
+   if(duplicate) return res.status(409).json({message: `User ${user} already exist`}) //conflict status
 
-    // const user = fsPromise.writeFile(
-    //   path.join(__dirname, "models", "users.json"),
-    //   JSON.stringify(userDB.users)
-    // );
+   try {
+    const hashPwd = await bcrypt.hash(pwd, 10)
+    const newUser = {username: user, password: hashPwd}
+    userDb.setUser([...userDb.users, newUser])
 
-    fsPromise.writeFile(
-      path.join(__dirname, "..", "models", "users.json"),
-      JSON.stringify(userDB.users)
-    );
+    fsPromises.writeFile(path.join(__dirname, '..', 'models', 'users.json'), JSON.stringify(userDb.users))
+    console.log(newUser)
+    res.status(201).json({message: `User ${newUser.username} has been registered successfully`})
+   } catch (error) {
+    res.status(500).json({message: error.message})
+   }
+}
 
-    console.log(newUser);
-    res.status(201).json({message: `User ${newUser.username} has registered successfully`});
-  } catch (err) {
-    res.status(500).json({ message: err.message });
-  }
-};
-
-module.exports = handleNewUser ;
+module.exports = handleNewUser

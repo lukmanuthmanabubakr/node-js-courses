@@ -1,0 +1,43 @@
+2023-07-18		11:07:51	 925c9bd4-0af3-42b8-82c7-c8e6a5b1f7c6	Error, not allowed by CORS2023-07-18		11:07:52	 573272f2-9277-4f40-a257-add818e44a21	Error, not allowed by CORS2023-10-18		11:10:40	 6ae889d2-ecd9-4f56-9042-51a1144e50b0	Error, not allowed by CORS2023-10-18		11:10:40	 70697c16-b930-4ea8-949d-07ac29a55e6e	Error, not allowed by CORS2023-14-18		11:14:24	 b8bf1068-5d36-44c4-8be2-6557b577fd28	Error, not allowed by CORS2023-14-18		11:14:24	 79957b9e-e9d4-484f-92b6-090c820ae725	Error, not allowed by CORS2023-18-18		11:18:00	 3dfd7e9d-a6cc-45c4-97f7-f110f16c43b0	Error, not allowed by CORS2023-18-18		11:18:00	 34e6de1a-ede9-4403-a476-9f11864fddb9	Error, not allowed by CORS2023-45-18		11:45:04	 5643b154-3a58-4fc1-96db-d588ddd9ceb6	Error, not allowed by CORS
+2023-45-18		11:45:04	 588b8bcc-5117-487e-b8ca-9265933e5e65	Error, not allowed by CORS
+2023-41-18		12:41:20	 e55052f4-e4be-4373-84a4-7c54a38624ba	TypeError, path.join is not a function
+2023-41-18		12:41:43	 6ff49ae2-7844-43fe-bf10-422238649aeb	TypeError, path.join is not a function
+2023-43-18		12:43:49	 56cf7742-d66f-4be1-88fd-67a25bdb2467	TypeError, path.join is not a function
+2023-46-18		12:46:42	 f52dd3c8-e991-4aff-be58-51aa36bee76d	TypeError, path.join is not a function
+2023-47-18		12:47:24	 66104097-6bc7-42ff-8ddf-ac8b870abf3c	TypeError, path.join is not a function
+2023-47-18		12:47:26	 61bd0785-610d-4bd4-b06d-b134487948bb	TypeError, path.join is not a function
+2023-47-18		12:47:31	 3af66787-7a27-4b2f-8614-90524f7920d0	TypeError, path.join is not a function
+2023-48-18		12:48:49	 64485a58-edd2-4f04-b777-8fb9337f6d33	TypeError, path.join is not a function
+2023-48-18		12:48:53	 c34544f8-3ee7-4505-be86-0d8500b389a4	TypeError, path.join is not a function
+2023-48-18		12:48:53	 766ad30f-aa86-47d6-b0a8-8a4e26dc2dfc	TypeError, path.join is not a function
+2023-49-18		12:49:20	 35eb6e62-ab37-464f-bbc2-dbcb001f4397	TypeError, path.join is not a function
+2023-49-18		12:49:25	 2fe82528-a1de-4cae-ae30-2ef9f439b6f3	TypeError, path.join is not a function
+2023-49-18		12:49:30	 0df980cc-7a05-4786-a4d4-1581c3992aa9	TypeError, path.join is not a function
+2023-49-18		12:49:59	 22467615-b303-49e4-b511-e1110c05a019	TypeError, path.join is not a function
+2023-50-18		12:50:00	 3d4e089f-f838-4ca3-89b7-5f00415139d9	TypeError, path.join is not a function
+2023-51-18		12:51:44	 cf706667-6141-4199-b95f-7d6933997d39	TypeError, path.join is not a function
+2023-52-18		12:52:44	 b951326e-ab76-40b6-8321-841b049a8489	TypeError, path.join is not a function
+2023-52-18		12:52:45	 dda2aab8-9cca-494f-a2e9-8076deb9d1cc	TypeError, path.join is not a function
+2023-54-18		12:54:22	 747993bd-a0e5-467d-b240-4c14b4f18cb2	TypeError, path.join is not a function
+2023-54-18		12:54:52	 9e595dad-b813-420c-93c9-21468d4b7c53	TypeError, path.join is not a function
+2023-54-18		12:54:52	 dea8654f-6d91-4a8b-babf-c6cfaff21872	TypeError, path.join is not a function
+2023-42-24		09:42:07	 09376335-9143-4f4c-b279-b7c5efdab8ae	Error, ENOENT: no such file or directory, stat '/Users/mac/Desktop/nodejscourse/jwt-tut-11/views/new-page.html'
+2023-47-24		12:47:57	 0d3b62d4-84c8-457c-a161-db4190c2f047	SyntaxError, Unexpected token 'e', "#" is not valid JSON
+2023-48-24		12:48:56	 73ca9c0a-ce2e-41e9-a650-1a42b0286b59	SyntaxError, Unexpected token 'e', "#" is not valid JSON
+2023-49-24		12:49:28	 b4f19d7e-3650-4944-aa44-257d663622b3	SyntaxError, Unexpected token 'e', "#" is not valid JSON
+2023-50-24		12:50:19	 f4c5f640-b335-4e08-beba-cf421f148e4e	SyntaxError, Unexpected token 'e', "#" is not valid JSON
+2023-13-24		13:13:34	 219a4384-920f-43b4-82c0-fc4bc8ea27a4	TypeError, Cannot read properties of undefined (reading 'username')
+2023-14-24		13:14:17	 e5e2d2ab-d732-4af3-a85c-e08b631b13f7	TypeError, Cannot read properties of undefined (reading 'username')
+2023-46-24		15:46:46	 aca947fa-f44b-4dfd-b837-2308e61b9ffe	TypeError, Cannot read properties of undefined (reading 'username')
+2023-47-24		15:47:30	 a8ceedfd-df55-49e1-8d5e-b8b1fd28b955	TypeError, Cannot read properties of undefined (reading 'username')
+2023-48-24		15:48:42	 6ef6dd12-103e-40dd-b93e-b87320e7d485	TypeError, Cannot read properties of undefined (reading 'username')
+2023-50-24		15:50:05	 3d3fb8d6-5a60-4d17-985f-12e1055a76cc	TypeError, Cannot read properties of undefined (reading 'user')
+2023-53-24		15:53:04	 3d1fec99-75ff-4b3a-99b0-e88e0a02f953	TypeError, Cannot read properties of undefined (reading 'username')
+2023-00-24		16:00:55	 a4508462-ee5a-4c1e-8e12-2c3b9f508668	TypeError, Cannot read properties of undefined (reading 'username')
+2023-27-24		16:27:11	 53b80204-5f2f-4622-84b2-323daa26cc33	TypeError, Cannot read properties of undefined (reading 'username')
+2023-30-24		16:30:18	 35042c0b-4632-4a56-a79d-113d8513ecf8	TypeError, Cannot read properties of undefined (reading 'username')
+2023-33-24		16:33:25	 66056466-74b9-491f-b569-c3cf1c2bb4b0	TypeError, Cannot read properties of undefined (reading 'username')
+2023-37-25		09:37:27	 a6a2cbdf-6f88-4dae-9935-603dac636b93	TypeError, Cannot read properties of undefined (reading 'username')
+2023-40-25		09:40:31	 3c18ee6b-361e-422c-b053-04012753b21c	TypeError, Cannot read properties of undefined (reading 'username')
+2023-40-25		09:40:50	 d858aeef-6a70-4288-a531-3cff0aee33fb	TypeError, Cannot read properties of undefined (reading 'username')
+2023-48-25		09:48:52	 3084e7df-4c12-408f-8eeb-0b400bda35fa	TypeError, Cannot read properties of undefined (reading 'username')

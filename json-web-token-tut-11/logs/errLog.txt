@@ -1,9 +1,0 @@
-2023-05-18		11:25:37	085bcd94-7935-4fa1-8ae3-57d237186c37	 Error, Not allowed by CORS
-2023-05-18		11:25:37	bed0c4fa-f201-4246-b69c-0dabb6fb3354	 Error, Not allowed by CORS
-2023-05-18		11:28:11	1e379d1e-6da9-42e8-b5c6-2deed5a337ab	 Error, Not allowed by CORS
-2023-05-18		11:28:11	0f22ff90-c9ef-4456-b861-b71b27a940b6	 Error, Not allowed by CORS
-2023-05-18		12:47:31	7720695d-dca5-4484-85ea-f798b37055e0	 Error, ENOENT: no such file or directory, stat 'C:\Users\lukma\Desktop\Documentation\Work\DLT-node-js-course\router-tut-8\views\subdir\text.html'
-2023-05-23		10:11:56	c6160f68-2534-4fd5-a3cd-4b5c4c220922	 SyntaxError, Unexpected non-whitespace character after JSON at position 58
-2023-05-23		10:12:02	fa146b06-d71c-41ea-acb5-46f23d4cbd5f	 SyntaxError, Unexpected non-whitespace character after JSON at position 57
-2023-05-23		12:15:50	2fcae78d-727f-4096-9afc-e253c0aab9d8	 SyntaxError, Unexpected non-whitespace character after JSON at position 47
-2023-05-23		14:34:04	286887b6-b933-4ba8-bbcf-3f3254994597	 SyntaxError, Expected ',' or '}' after property value in JSON at position 15
