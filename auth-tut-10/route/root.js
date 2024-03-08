@@ -18,5 +18,3 @@ router.get("/old-page(.html)?", (req, res) => {
 
 module.exports = router;
 
-
-//res.redirect(301, path.join(__dirname,  "views", "/new-page.html"));
