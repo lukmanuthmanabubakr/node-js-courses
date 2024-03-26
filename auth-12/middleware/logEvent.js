@@ -10,7 +10,7 @@ const logEvents = async(message, logFileName) => {
     
     const dateTime = format(new Date(), `yyyy-mm-dd\t\tHH:mm:ss`) 
     const logItem = `${dateTime}\t ${uuid()}\t ${message} \n`
-    // console.log(logItem)
+    
     // console.log(dateTime)
    
 
