@@ -13,7 +13,7 @@ const verifyJWT = require('./middleware/verifyJWT')
 
 app.use(logger)
 
-// built in middleware to handle urlencoded daata:
+// builiddleware to handle urlencoded daata:
 // conten
 
 app.use(express.urlencoded({extended: false}))
