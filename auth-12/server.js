@@ -14,7 +14,7 @@ const verifyJWT = require('./middleware/verifyJWT')
 app.use(logger)
 
 // built in middleware to handle urlencoded daata:
-// content-type: application/x-ww-form-urlencoded
+// content-type: application/x-ww-form
 
 
 app.use(express.urlencoded({extended: false}))
