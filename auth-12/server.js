@@ -13,8 +13,6 @@ const verifyJWT = require('./middleware/verifyJWT')
 
 app.use(logger)
 
-// builiddleware 
-
 app.use(express.urlencoded({extended: false}))
 
 // buiddleware for json 
