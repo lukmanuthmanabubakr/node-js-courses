@@ -10,7 +10,7 @@ router.get('^/$|new-page(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, '..', "views", 'new-page.html'))
 })
 
-// to redirect
+// to redir
 
 router.get('/old-page.html', (req, res) => {
     // res.redirect(path.join(__dirname, 'views', 'new-page.html')) // 302 by default
