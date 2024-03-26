@@ -10,9 +10,6 @@ const logEvents = async(message, logFileName) => {
     
     const dateTime = format(new Date(), `yyyy-mm-dd\t\tHH:mm:ss`) 
     const logItem = `${dateTime}\t ${uuid()}\t ${message} \n`
-    
-    // console.log(dateTime)
-   
 
     try {
         if(!fs.existsSync(path.join(__dirname, '..', 'logs'))){
