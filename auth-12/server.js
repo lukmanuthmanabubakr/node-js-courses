@@ -19,7 +19,7 @@ app.use(logger)
 
 app.use(express.urlencoded({extended: false}))
 
-// buit-in middleware for json 
+// buiddleware for json 
 app.use(cookieParser())
 app.use(express.json())
 
