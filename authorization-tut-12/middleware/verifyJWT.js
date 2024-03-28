@@ -5,7 +5,7 @@ function verifyJWT(req, res, next) {
     const authHeader = req.headers['authorization']
     if (!authHeader)
         return res.sendStatus(401)
-    console.log(authHeader) // Bearer Token
+    console.log(authHeader) 
 
     const token = authHeader.split(' ')[1]
     jwt.verify(
