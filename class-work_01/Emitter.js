@@ -3,8 +3,7 @@
 //
 // class MyEmitter extends EventEmitter {}
 
-// cotter
-
+// cott
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 // setTimeout(() => {
