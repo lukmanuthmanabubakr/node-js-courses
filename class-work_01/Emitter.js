@@ -6,7 +6,7 @@
 
 // setTimeout(() => {
 //     myEmitter.emit('log', 'event Emitted sucessguly')
-// }, 2000)
+//
 
 
 const {EventEmitter} = require('node:events');
