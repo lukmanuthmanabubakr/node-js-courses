@@ -2,7 +2,6 @@
 const {format} = require('date-fns')
 const {v4: uuid} = require('uuid')
 
-// cor
 const fsPromises = require('fs/promises')
 const fs = require('fs')
 const path = require('path')
