@@ -3,7 +3,7 @@
 //
 // class MyEmitter extends EventEmitter {}
 
-// cotter = new
+// cotter
 
 // myEmitter.on('log', (msg) => logEvent(msg))
 
