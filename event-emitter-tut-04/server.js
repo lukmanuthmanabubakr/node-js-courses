@@ -2,7 +2,6 @@
 
 // const EventEmitter = require('events')
 
-// myEmitter
 
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
