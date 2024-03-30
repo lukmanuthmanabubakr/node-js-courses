@@ -1,6 +1,4 @@
-// const logEvent = require('./logEvent');
-
-// const EventEmitter 
+// const logEvent = require('./logEvent'
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
 
