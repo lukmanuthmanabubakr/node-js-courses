@@ -4,9 +4,6 @@
 
 // myEmitter.on('log', (msg) => logEvent(msg))
 
-//
-
-
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
 
