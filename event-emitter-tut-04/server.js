@@ -5,8 +5,6 @@
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 // setTimeout(() => {
-//     myEmitter.emit('log', 'event Emitted 
-
 
 
 const {EventEmitter} = require('node:events');
