@@ -5,8 +5,7 @@
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 // setTimeout(() => {
-//     myEmitter.emit('log', 'event Emitted sucessguly')
-// }, 2000)
+//     myEmitter.emit('log', 'event Emitted 
 
 
 
