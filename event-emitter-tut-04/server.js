@@ -4,7 +4,7 @@
 
 // myEmitter.on('log', (msg) => logEvent(msg))
 
-// setTimeo
+//
 
 
 const {EventEmitter} = require('node:events');
