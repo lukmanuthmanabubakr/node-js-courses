@@ -13,7 +13,7 @@
 
 // // METHOD 2
 
-// console.log(path.parse(__filename))
+// console.log
 
 const math = require('./math')
 const uber = require('./uber')
