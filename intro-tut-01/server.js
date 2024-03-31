@@ -1,8 +1,5 @@
 // // BASIC INTRODUCTION TO NODE   
 
-// // METHOD 1
-
-
 // console.log(os.type());
 // console.log(os.version());
 // console.log(os.homedir());
