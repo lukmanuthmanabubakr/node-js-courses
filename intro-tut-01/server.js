@@ -2,9 +2,6 @@
 
 // // METHOD 1
 
-// const os = require('os');
-
-
 
 // console.log(os.type());
 // console.log(os.version());
