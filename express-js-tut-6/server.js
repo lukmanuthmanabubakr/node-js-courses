@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 3500;
 //   res.redirect(301, path.join(__dirname, "views", "new-page.html"));
 // });
 
-// //catch all rou error 404 page
+// //catch all rou err
 // app.get('/*', (req, res) => {
 //   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 //   
