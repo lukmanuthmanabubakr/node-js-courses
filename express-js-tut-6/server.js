@@ -39,7 +39,7 @@ const PORT = process.env.PORT || 3500;
 // //catch all routes to get error 404 page
 // app.get('/*', (req, res) => {
 //   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));
-//   //or
+//   
 //  // res.status(404)
 // })
 
