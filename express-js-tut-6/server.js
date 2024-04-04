@@ -1,7 +1,7 @@
 
 // app.get("^/$|index(.html)?",(req, res) => {
-//     res.sendFile('./views/index.html', {root: __dirname});
-//     res.sendFile(pat
+//     res.sendFile('./views/index.html', {root: __di
+//     res.sendFi
 
 // })
 
