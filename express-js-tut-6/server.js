@@ -10,7 +10,7 @@
 // })
 
 // app.get('/old', (req, res) => {
-//   // res.redirect(path.join(__dirname, "views", "new-page.html")) // redirect temporarily by default
+//  t(path.join(__dirname, "views", "new-page.html")) // redirect temporarily by default
 //   res.redirect(301, path.join(__dirname, "views", "new-page.html")) // redirect permanently
 // })
 
