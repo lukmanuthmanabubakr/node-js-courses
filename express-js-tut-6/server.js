@@ -1,8 +1,6 @@
 
 // app.get("^/$|index(.html)?",(req, res) => {
-//     res.s./views/index.html', {root: __di
-//     res.
-
+//     res.s./views/index.html', {r
 // })
 
 // app.get('^/$|new-page(.html)?', (req,res) => {
