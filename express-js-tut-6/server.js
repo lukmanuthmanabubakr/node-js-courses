@@ -1,7 +1,5 @@
 
-// app.get("^/$|index(.html)?",(req, res) => {
-//   
-// })
+// app.get("^/$|index(.html)?",(req, res) =
 
 // app.get('^/$|new-page(.html)?', (req,res) => {
 //   res.sendFile(path.join(__dirname, "views", "new-page.html"));
