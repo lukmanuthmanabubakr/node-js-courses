@@ -1,7 +1,7 @@
 
 // app.get("^/$|index(.html)?",(req, res) => {
-//     res.sendFile('./views/index.html', {root: __di
-//     res.sendFi
+//     res.s./views/index.html', {root: __di
+//     res.
 
 // })
 
