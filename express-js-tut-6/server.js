@@ -11,7 +11,7 @@
 
 // app.get('/old', (req, res) => {
 //  t(path.join(__dirname, "views", "new-page.html")) // redirect temporarily by default
-//   res.redirect(301, path.join(__dirname, "views", "new-page.html")) // redirect permanently
+//   res.redirect(301, path "new-page.html")) // redirect permanently
 // })
 
 // app.listen(PORT, () => {console.log(`server is listening on ${PORT}`)});
