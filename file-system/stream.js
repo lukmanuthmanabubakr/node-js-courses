@@ -9,7 +9,7 @@ const ws  = fs.createWriteStream(path.join(__dirname, "new-files", "stream.txt")
 
 
 // rs.on('data', (chunk) => {
-//     ws.write(chunk);
+//     ws.write
 // })
 
 rs.pipe(ws)
