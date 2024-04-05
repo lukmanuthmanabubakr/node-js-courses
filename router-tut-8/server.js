@@ -17,7 +17,7 @@ app.use(logger)
 //       next()
 // })
 
-//built in middleware to han
+//built in mid
 // Content-type application/x-www-form-urlencoded
 
 app.use(express.urlencoded({extended: false}))
