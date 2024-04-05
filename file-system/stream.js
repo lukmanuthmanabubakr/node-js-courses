@@ -8,8 +8,7 @@ const rs = fs.createReadStream(path.join(__dirname, "new-files", "lorem.txt"), {
 const ws  = fs.createWriteStream(path.join(__dirname, "new-files", "stream.txt"),);
 
 
-// rs.on('data', (ch
-// })
+// rs.on('data', 
 
 rs.pipe(ws)
 
