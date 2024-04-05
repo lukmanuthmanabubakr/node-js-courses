@@ -53,7 +53,7 @@ app.use(cors(corsOptions));
 
 
 
-// catch all routes to get error 404 page
+// catch all the routes to get error 404 page
 
 app.all('*',(req, res) => {
       res.status(404);
