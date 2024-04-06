@@ -2,7 +2,6 @@
 // class MyEmitter extends EventEmitter {}
 // myEmitter.on('log', (msg) => logEvent(msg))
 
-// setTimeout(() => {
 
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
