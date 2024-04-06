@@ -3,9 +3,7 @@
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 // setTimeout(() => {
-//     myEmitter.event Emitted sucessguly')
-//
-
+//     myEmitter.event Emitted 
 
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
