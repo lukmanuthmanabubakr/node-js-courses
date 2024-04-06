@@ -3,7 +3,7 @@
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 // setTimeout(() => {
-//     myEmitter.emit('log', 'event Emitted sucessguly')
+//     myEmitter.event Emitted sucessguly')
 //
 
 
