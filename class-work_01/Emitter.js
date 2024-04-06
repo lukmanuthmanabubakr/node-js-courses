@@ -1,4 +1,4 @@
-// const logEvent = requ
+// const log
 
 //
 // class MyEmitter extends EventEmitter {}
