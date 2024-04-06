@@ -1,4 +1,4 @@
-// const log
+// c
 
 //
 // class MyEmitter extends EventEmitter {}
