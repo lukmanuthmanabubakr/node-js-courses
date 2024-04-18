@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3500
 
 app.use(logger)
 
-// syntax for  creating a standard custom middleware
+// syntax for  creating a standard cust
 
 // app.use((req, res, next) => {
 //       console.log(`${req.method}\n${req.path}`)
