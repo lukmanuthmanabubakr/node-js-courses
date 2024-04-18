@@ -13,8 +13,7 @@ app.use(logger)
 
 // app.use((req, res, next) => {
 //       console.log(`${req.method}\n${req.path}`)
-//       logEvents(`${req.method}\t${req.pat
-
+//       logEvents(`${req.method}\
 
 // Content-type application/x-www-form-urlencoded
 
