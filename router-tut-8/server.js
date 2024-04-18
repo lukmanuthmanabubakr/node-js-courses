@@ -7,7 +7,7 @@ const {logger} = require('./middleware/logEvent')
 const errorHandler = require('./middleware/errorHandler')
 const PORT = process.env.PORT || 3500
 
-app.use(logger)
+app.use(logger);
 
 
 
