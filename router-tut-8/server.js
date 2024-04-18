@@ -90,7 +90,7 @@ app.get('/', (req, res, next) => {
 //       res.send('hello world')
 // }
 
-//       app.get('/', [a,b,c])
+//       app.get('/',
       
 
 app.use(errorHandler)
