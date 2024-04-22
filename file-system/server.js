@@ -1,7 +1,6 @@
 //Read file
 
-// fs.readFile('./files/starter.txt', 'utf8', (err, data) => {
-//     if (err) throw err;
+// fs.readFile('./files/starter.txt', 'utf8', (err, data) => 
 // })
 
 // process.on("uncaughtException", (err) => {
