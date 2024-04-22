@@ -1,4 +1,4 @@
-hiconst express = require('express')
+const express = require('express')
 const app = express()
 
 const path = require('path')
@@ -200,7 +200,6 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // // }
 // // const c = (req, res) => {
 // //       console.log('final request')
-// //       res.send('hello world')
 // // }
 
 // //       app.get('/', [a,b,c])
