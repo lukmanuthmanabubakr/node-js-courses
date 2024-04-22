@@ -195,7 +195,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // // }
 
 // // const b =(err, res, next) => {
-// //       console.log ('second request attempted')
+// //       console.lo
 // //       next()
 // // }
 // // const c = (req, res) => {
