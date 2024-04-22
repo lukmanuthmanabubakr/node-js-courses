@@ -162,7 +162,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 
 
 
-// // catch all routes to get error 404 page
+// // catch all routes to get the error 404 page
 
 // app.all('*',(req, res) => {
 //       res.status(404);
