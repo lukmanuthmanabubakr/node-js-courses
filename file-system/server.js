@@ -1,8 +1,6 @@
 //Read fil
 // process.on("uncaughtException", (err) => {
-//     console.log(`"There was an error proceesing the data:  "${err}`);
-// 
-// })
+//     console.log(`"There was an error proceesing the data: )
 
 //Read file method 2
 const fs = require("fs");
