@@ -205,6 +205,4 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // //       app.get('/', [a,b,c])
       
 
-// app.use(errorHandler)
-
 // app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
