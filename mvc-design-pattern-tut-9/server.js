@@ -202,7 +202,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // //       console.log('final request')
 // // }
 
-// //       app.get('/', [a,b,c])
+// //       app.get('
       
 
 // app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
