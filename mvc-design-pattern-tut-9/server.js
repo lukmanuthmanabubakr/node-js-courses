@@ -144,7 +144,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 
 // // built-in middleware for json data
 
-// app.use(express.json());
+
 
 // //server static files
 
