@@ -14,7 +14,7 @@ const errorHandler = require('./middleware/errorHandler')
 const PORT = process.env.PORT || 3500
 
 
-// syntax for creating custom middleware
+// syntax for creating a custom middleware
 
 app.use(logger)
 
