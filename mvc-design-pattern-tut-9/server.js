@@ -125,7 +125,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // const {logger} = require('./middleware/logEvent')
 // const errorHandler = require('./middleware/errorHandler')
 // const corsOptions = require('./cofig/corsOptions')
-// const PORT = process.env.PORT || 3500
+// const PO
 
 // app.use(logger)
 
