@@ -1,7 +1,6 @@
 //Read file
 
-// fs.readFile('./files/
-// })
+// fs.read
 
 // process.on("uncaughtException", (err) => {
 //     console.log(`"There was an error proceesing the data:  "${err}`);
