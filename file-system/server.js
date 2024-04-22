@@ -1,7 +1,7 @@
 //Read fil
 // process.on("uncaughtException", (err) => {
 //     console.log(`"There was an error proceesing the data:  "${err}`);
-//     process.exit(1)
+// 
 // })
 
 //Read file method 2
