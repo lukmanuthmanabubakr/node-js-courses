@@ -193,11 +193,6 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 // //       console.log('attempted a request');
 // //       next()
 // // }
-
-// // const b =(err, res, next) => {
-// //       console.lo
-// //       next()
-// // }
 // // const c = (req, res) => {
 // //       console.log('final request')
 // // }
