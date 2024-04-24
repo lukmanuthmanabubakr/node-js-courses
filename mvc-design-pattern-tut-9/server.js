@@ -178,10 +178,7 @@ app.listen(PORT, () => console.log(`server is listening on ${PORT}`))
 
 // })
 
-// app.get('/', (req, res, next) => {
-//       console.log('attempted a request');
-//       next()
-// }, (err, res, next) => {
+//  res, next) => {
 //       console.log ('second request attempted')
 //       next()
 // }, (req, res) => {
