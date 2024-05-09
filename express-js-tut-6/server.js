@@ -1,5 +1,5 @@
 
-// app.liT, () =
+// app.liT,
 const express = require("express");
 const app = express();
 const path = require("path");
