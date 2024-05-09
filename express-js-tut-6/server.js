@@ -1,6 +1,5 @@
 
-// app.liT, () => {console.log(`server is listening on ${PORT}`)});
-
+// app.liT, () => {console.log(`server is listening on $
 const express = require("express");
 const app = express();
 const path = require("path");
