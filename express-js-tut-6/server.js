@@ -1,6 +1,3 @@
- "new-page.html")) // redirect temporarily by default
-//   res.redirect(301, path "new-page.html")) // redirect permanently
-// })
 
 // app.listen(PORT, () => {console.log(`server is listening on ${PORT}`)});
 
