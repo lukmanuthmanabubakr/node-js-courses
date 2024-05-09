@@ -1,7 +1,4 @@
 
-// app.get('^/$|new-page(.html)?', (req,res) => {
-//   res.sendFile(path.join(__dirname, "views", "new-page.html"));
-// })
 
 // app.get('/old', (req, res) => {
 //  t(path.join(__dirname, "views", "new-page.html")) // redirect temporarily by default
