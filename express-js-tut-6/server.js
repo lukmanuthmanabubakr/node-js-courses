@@ -1,5 +1,5 @@
 
-// app.listen(PORT, () => {console.log(`server is listening on ${PORT}`)});
+// app.liT, () => {console.log(`server is listening on ${PORT}`)});
 
 const express = require("express");
 const app = express();
