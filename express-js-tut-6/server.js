@@ -1,7 +1,4 @@
-
-
-// app.get('/old', (req, res) => {
-//  t(path.join(__dirname, "views", "new-page.html")) // redirect temporarily by default
+ "new-page.html")) // redirect temporarily by default
 //   res.redirect(301, path "new-page.html")) // redirect permanently
 // })
 
