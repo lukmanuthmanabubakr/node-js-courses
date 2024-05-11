@@ -1,5 +1,5 @@
 
-// myEmitter.on('log', (msg) => logEvent(msg))
+// myEmitter.on('log', (msg) => logEvent(
 
 
 const {EventEmitter} = require('node:events');
