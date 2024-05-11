@@ -1,5 +1,4 @@
 
-// class MyEmitter extends EventEmitter {}
 // myEmitter.on('log', (msg) => logEvent(msg))
 
 
