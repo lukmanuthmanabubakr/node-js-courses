@@ -1,6 +1,6 @@
 // // BASIC INTRODUCTION TO NODE   
 
-// console.log(os.homedir());
+// console.log(os.ho
 
 // console.log(__filename);
 
