@@ -1,7 +1,5 @@
 // // BASIC INTRODUCTION TO NODE   
 
-// console.log(os.ho
-
 // console.log(__filename);
 
 // console.log(path.dirname(__dirname))
