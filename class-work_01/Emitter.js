@@ -5,7 +5,7 @@
 const {EventEmitter} = require('node:events');
 const logEvent = require('./logEvent')
 
-//initialize event object
+//initialize event object in the code
 
 const myEmitter = new EventEmitter();
 myEmitter.on('log', (msg) => logEvent(msg));
