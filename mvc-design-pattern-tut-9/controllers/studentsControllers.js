@@ -31,7 +31,7 @@ const createNewStudent = (req, res) => {
 
 
    // add the new student to the student list
-  data.setStudents([...data.students, newStudent])//spread method
+  data.setStudents([...data.students, newStudent])
 
   // update the data
 
