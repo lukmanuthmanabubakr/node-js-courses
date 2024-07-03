@@ -20,7 +20,8 @@ const createNewStudent = (req, res) => {
           
   };
 
-  //set the required condition for the two parameters
+  //set the required condition for the two para
+      
 
   if (!newStudent.firstname || !newStudent.lastname){
       return res
