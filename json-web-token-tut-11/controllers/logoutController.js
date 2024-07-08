@@ -10,7 +10,7 @@ const path = require('path')
 
 
 const handleLogout =  async (req, res) => {
-    // on client side(front end), also delete the accesstoke
+    // on client side(front end), also delete
 
     const cookies = req.cookies;
     if (!cookies?.jwt)
