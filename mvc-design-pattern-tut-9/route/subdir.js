@@ -6,7 +6,6 @@ router.get('^/$|index(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, "..", 'views', "subdir", 'index.html'));
 })
 router.get('/text(.html)?', (req, res) => {
-    // r
     res.sendFile(path.join(__dirname, "..", 'views', "subdir", 'text.html'));
 })
 
